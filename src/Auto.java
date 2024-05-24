@@ -24,4 +24,16 @@ public class Auto extends VehiculoPasajeros{
         super.mostrarInfo();
         System.out.println("Tipo de Combustible: "+tipoCombustible);
     }
+    @Override
+    public void realizarMantenimiento(){
+        super.realizarMantenimiento();
+        System.out.println("-Cambio de Aceite y Filtro");
+        System.out.println("-Rotacion de neumaticos");
+        System.out.println("-Alineacion de ruedas");
+        System.out.println("-Sustitucion del filtro de aire del motor de cabina");
+    }
+    public void costoMantenimiento(int costKm, int numKm){
+        int costoTotal = costKm*numKm;
+        System.out.println("El costo total del Mantenimiento es de: $"+costoTotal);
+    }
 }

@@ -21,4 +21,12 @@ public class Camion extends VehiculoCarga{
         super.mostrarInfo();
         System.out.println("Numero de Ejes: "+numEjes);
     }
+    @Override
+    public void realizarMantenimiento(){
+        super.realizarMantenimiento();
+        System.out.println("-Averias del motor");
+        System.out.println("-Averias de Transmision");
+        System.out.println("-Averias de Frenos");
+        System.out.println("-Averias de sistema de suspension");
+    }
 }
