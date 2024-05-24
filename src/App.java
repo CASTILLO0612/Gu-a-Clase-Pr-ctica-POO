@@ -8,8 +8,12 @@ public class App {
         //Mostrar la informacion de cada vehiculo
         System.out.println("Informacion del Auto:");
         auto.mostrarInfo();
+        auto.realizarMantenimiento();
+        auto.costoMantenimiento(12, 4);
 
         System.out.println("\nInformacion del camion:");
         camion.mostrarInfo();
+        camion.realizarMantenimiento();
+       
     }
 }

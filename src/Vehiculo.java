@@ -51,4 +51,7 @@ public class Vehiculo {
         System.out.println("Año: "+año);
         System.out.println("Kilometraje: "+kilometraje);
     }
+    public void realizarMantenimiento (){
+        System.out.println("Mantenimiento: ");
+    }
 }
