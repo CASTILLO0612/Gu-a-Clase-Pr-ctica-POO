@@ -9,7 +9,7 @@ public class App {
         System.out.println("Informacion del Auto:");
         auto.mostrarInfo();
         auto.realizarMantenimiento();
-        auto.costoMantenimiento(12, 4);
+        auto.costoMantenimiento(12, 1505);
 
         System.out.println("\nInformacion del camion:");
         camion.mostrarInfo();
